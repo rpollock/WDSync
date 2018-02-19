@@ -32,9 +32,6 @@ namespace WDSync
         public AD()
         {
 
-
-
-
         }
 
         public string FindOne(string search)

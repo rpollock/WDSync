@@ -11,16 +11,9 @@ namespace WDSync
         static void Main(string[] args)
         {
 
-            // connect to sql
-            SQL sql = new SQL();
-            Log log = new Log();
-
-
-            FTP ftp = new FTP();
-
 
             Settings settings = new Settings();
-            Report report = new Report();
+            string blah = settings.adou;
 
         }
     }

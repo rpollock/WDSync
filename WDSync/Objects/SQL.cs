@@ -16,10 +16,8 @@ namespace WDSync
         public string database = "WDSync";
         public string security = "Integrated Security=SSPI";
 
-        Settings settings = new Settings();
         SqlConnection con = new SqlConnection();
         SqlCommand cmd = new SqlCommand();
-
  
         public SQL()
         {
@@ -98,13 +96,13 @@ namespace WDSync
         // add row
         public bool Add(WD wduser)
         {
-            string database = "WDUsers";
+            //string database = "WDUsers";
             return false;
         }
 
         public bool Add(AD aduser)
         {
-            string database = "ADUsers";
+            //string database = "ADUsers";
             return true;
         }
     }
